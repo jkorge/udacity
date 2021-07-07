@@ -1,0 +1,110 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/cost.h
+vehicle.h
+../include/vehicle.h
+
+../include/road.h
+iostream
+-
+random
+-
+sstream
+-
+fstream
+-
+math.h
+-
+vector
+-
+set
+-
+map
+-
+string
+-
+iterator
+-
+vehicle.h
+../include/vehicle.h
+
+../include/vehicle.h
+iostream
+-
+random
+-
+vector
+-
+map
+-
+string
+-
+
+/mnt/c/Users/James/Desktop/carnd/Term 3 - Path Planning & Concentrations/Lectures/4_BehaviorPlanning/behavior_planner/src/cost.cpp
+cost.h
+/mnt/c/Users/James/Desktop/carnd/Term 3 - Path Planning & Concentrations/Lectures/4_BehaviorPlanning/behavior_planner/src/cost.h
+vehicle.h
+/mnt/c/Users/James/Desktop/carnd/Term 3 - Path Planning & Concentrations/Lectures/4_BehaviorPlanning/behavior_planner/src/vehicle.h
+functional
+-
+iterator
+-
+map
+-
+math.h
+-
+
+/mnt/c/Users/James/Desktop/carnd/Term 3 - Path Planning & Concentrations/Lectures/4_BehaviorPlanning/behavior_planner/src/main.cpp
+road.h
+/mnt/c/Users/James/Desktop/carnd/Term 3 - Path Planning & Concentrations/Lectures/4_BehaviorPlanning/behavior_planner/src/road.h
+vehicle.h
+/mnt/c/Users/James/Desktop/carnd/Term 3 - Path Planning & Concentrations/Lectures/4_BehaviorPlanning/behavior_planner/src/vehicle.h
+iostream
+-
+fstream
+-
+math.h
+-
+vector
+-
+
+/mnt/c/Users/James/Desktop/carnd/Term 3 - Path Planning & Concentrations/Lectures/4_BehaviorPlanning/behavior_planner/src/road.cpp
+iostream
+-
+road.h
+/mnt/c/Users/James/Desktop/carnd/Term 3 - Path Planning & Concentrations/Lectures/4_BehaviorPlanning/behavior_planner/src/road.h
+vehicle.h
+/mnt/c/Users/James/Desktop/carnd/Term 3 - Path Planning & Concentrations/Lectures/4_BehaviorPlanning/behavior_planner/src/vehicle.h
+math.h
+-
+map
+-
+string
+-
+iterator
+-
+
+/mnt/c/Users/James/Desktop/carnd/Term 3 - Path Planning & Concentrations/Lectures/4_BehaviorPlanning/behavior_planner/src/vehicle.cpp
+algorithm
+-
+iostream
+-
+vehicle.h
+/mnt/c/Users/James/Desktop/carnd/Term 3 - Path Planning & Concentrations/Lectures/4_BehaviorPlanning/behavior_planner/src/vehicle.h
+cmath
+-
+map
+-
+string
+-
+iterator
+-
+cost.h
+/mnt/c/Users/James/Desktop/carnd/Term 3 - Path Planning & Concentrations/Lectures/4_BehaviorPlanning/behavior_planner/src/cost.h
+
