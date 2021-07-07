@@ -1,0 +1,9 @@
+**/*.log
+**/*.mp4
+!test_run_trim.mp4
+
+**/*.png
+**/*_checkpoint_[0-9]*.pth
+
+envs
+**/bak
