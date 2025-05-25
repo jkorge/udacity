@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+margin:0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    font-weight: bold;
+    margin: 2em 0;
+}
+
+h2 {
+    font-weight: bold;
+    margin: 0 0 1em 0;
+}
+
+p {
+    margin: 0 0 20px 0;
+}
+
+#cardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    flex-wrap: wrap;
+    min-height: 550px;
+    margin: 0 0 40px 0;
+}
+
+.instructions {
+    background-color: beige;
+    color:brown;
+    padding:40px;
+    border-top: solid 2px brown;
+    border-bottom:solid 2px brown;
+    margin:0 0 40px 0;
+}
+#moreText {
+    padding:40px;
+}
+.picFrame {
+    width: 30%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card {
+    width: 40%;
+    display: flex;
+    flex-direction:column;
+    border-radius: 20px;
+    gap: 40px;
+    background-color: beige;
+    border: 2px solid brown;
+    overflow: hidden;
+    padding: 10px;
+    min-height: 350px;
+    & img {
+        width: 100%;
+        border-radius: 10px;
+        overflow: hidden;
+        object-fit: cover;
+        object-position: top;
+    }
+}
+#questions {
+    padding:40px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.questionCard {
+    width: 90%;
+    display: flex;
+    flex-direction:column;
+    border-radius: 20px;
+    gap: 10px;
+    background-color: beige;
+    border: 2px solid brown;
+    overflow: hidden;
+    padding: 20px;
+    margin:20px 0;
+    & input {
+        width:90%;
+    }
+    & button {
+        width:20%;
+    }
+
+}
+.title {
+    background-color:brown;
+    color:beige;
+    padding:20px 40px;
+    & h1{
+        margin:0;
+    }
+    
+}
+.userInfo {
+    width:60%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+@media (width>=1024px) {
+    .picFrame img {
+        object-position: top;
+    }
+}
+
+@media (width>=1028px) {
+    .card {
+        width:28%;
+    }
+    
+    .userInfo {
+        width:90%;
+    }
+}

@@ -1,0 +1,21 @@
+@use './variables' as *;
+
+@mixin button-style {
+
+    padding: 1rem;
+    background-color: $color-dark;
+    color: $color-acct;
+    font-weight: bold;
+
+    transition: all 0.5s ease-in-out;
+    border-radius: 1rem;
+
+    &:hover {
+        background-color: $color-acct;
+        color: $color-dark;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        transition: none;
+    }
+}

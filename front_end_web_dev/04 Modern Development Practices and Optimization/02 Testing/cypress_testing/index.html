@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Flexbox Mini Lesson</title>
+
+        <link rel="stylesheet" href="dist/main.css" />
+       
+       
+   
+        <script defer type="module" src="dist/main.js"></script>
+    </head>
+
+    <body>
+        <nav>
+            <div class="headingContainer">
+                <h1>PORTRAITS BY ANDERSON</h1>
+                <img src="images/cameraiconSVG.svg" alt="camera logo">
+          
+
+            </div>
+       
+                <ul class="navContainer">
+                    <li class="navChild" id="homePage" data-cy="homePage">
+                        HOME
+                    </li>
+                
+                    <li class="navChild" id="galleryPage" data-cy="galleryPage">
+                        GALLERY
+                    </li>
+                    <li class="navChild" id="pricePage" data-cy="pricePage">
+                        PRICES
+                    </li>
+                 
+              
+            </nav>
+        </nav>
+        <main>
+            <h2>Contact the photographer</h2>
+            <img src="images/portrait1.png" alt="Portrait of man in woods" />
+            <form>
+                <label for="email">Email</label>
+                <input type="text" name="email" />
+                <label for="subject">Subject</label>
+                <input type="text" name="subject" />
+                <label for="message">Message</label>
+                <textarea name="message" rows="8"> </textarea>
+                <input type="submit" />
+            </form>
+        </main>
+        <footer></footer>
+    </body>
+</html>

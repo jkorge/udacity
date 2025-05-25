@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+  background-color: darkslategrey;
+  height: 100vh;
+  color: white;
+  text-align: center;
+}
+
+.text-content {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  z-index: 1;
+}
+
+.circle {
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  height: 500px;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background-color: gray;
+  position: absolute;
+  z-index: -1;
+  animation: breathe 10s ease-in-out infinite;
+}
+
+@keyframes breathe {
+  0%,
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  50% {
+    transform: translate(-50%, -50%) scale(1.5);
+  }
+}
+
+@media (max-width: 750px) {
+  .circle {
+    animation: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .circle {
+    animation: none;
+  }
+}

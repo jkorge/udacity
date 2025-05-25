@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store Product Cards</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/scripts.js" defer></script>
+</head>
+
+<body>
+    <div class="title" id="pageTitle">
+        <h1>Welcome to Navigating the DOM!</h1>
+    </div>
+    <div class="instructions">
+        <div class="intro">
+            <p>We're going to try something a little different this time. In order to work on your skills navigating the
+                DOM with JavaScript, you're going to navigate to different parts of this page.</p>
+            <p>Near the bottom of the page, you'll find a list of questions. Each question will ask you to target one or
+                several objects on this very page. Your answer must...</p>
+            <ul>
+                <li>Use querySelector or querySelectorAll</li>
+                <li>Use one line and one line only</li>
+                <li>Correctly target the object(s) in the question</li>
+            </ul>
+            <p>Remember that any valid CSS rule will work with your querySelector methods, so drill down into the
+                rendered HTML and figure out your rules.</p>
+            <p>Remember to look at the Elements in your Developer Tools to help pinpoint the elements you need to find.
+            </p>
+        </div>
+    </div>
+    <div id="cardContainer">
+        <div class="card">
+            <img src="./images/squirrel_croissant.webp" alt="squirrel with a criossant" class="weirdImage">
+            <div class="cardText">
+                <h2 class="name">Lunch</h2>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./images/dog_cat_tango.webp" alt="dancing dog and cat" class="weirdImage">
+            <div class="cardText">
+                <h2 class="name">The tango</h2>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./images/unicorn_futbol.webp" alt="unicorn with ball" class="weirdImage">
+            <div class="cardText">
+                <h2 class="name">Soccer or Futbol?</h2>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./images/red_panda_comedian.webp" alt="standup set" class="weirdImage">
+            <div class="cardText">
+                <h2 class="name">The set</h2>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./images/panda_dev.webp" alt="panda developer" class="weirdImage">
+            <div class="cardText">
+                <h2 class="name">Panda Dev</h2>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./images/sloth_barista.webp" alt="sloth barista" class="weirdImage sloth">
+            <div class="cardText">
+                <h2 class="name">Slowest latte ever</h2>
+            </div>
+        </div>
+    </div>
+    <div id="moreText">
+        <h2>Remember...</h2>
+        <ul>
+            <li>You can find any element starting from the document root.</li>
+            <li>You don't have to always start from the document root.
+                <ul>
+                    <li>You can search within any element you select from the document root</li>
+                </ul>
+            </li>
+            <li>The .closest() method can be a huge help later.</li>
+        </ul>
+    </div>
+    <div class="title">
+        <h2>Question Time:</h2>
+    </div>
+    <div class="instructions">
+        <p>Remember to answer each question using a one-line query starting with the document root and using querySelector or querySelectorAll.</p>
+    </div>
+    <section id="questions">
+        <div class="questionCard" data-questNum='one'>
+            <p>Target the div containing the title of this page, which is "Welcome to Navigating the DOM."</p>
+            <input type="text" />
+            <button class="submitAnswer">Check my answer.</button>
+        </div>
+        <div class="questionCard" data-questNum='two'>
+            <p>Target the image of the panda developer. (HINT: Think about your attribute selectors.)</p>
+            <input type="text" />
+            <button class="submitAnswer">Check my answer.</button>
+        </div>
+        <div class="questionCard" data-questNum='three'>
+            <p>Target the list of instructions at the top of the page. There should be 3 items in the list.</p>
+            <input type="text" />
+            <button class="submitAnswer">Check my answer.</button>
+        </div>
+        <div class="questionCard" data-questNum='four'>
+            <p>I'm going to give you a selector. Chain a method onto the end that will select the parent element of that object. The selector is "document.querySelector('.sloth')"</p>
+            <input type="text" />
+            <button class="submitAnswer">Check my answer.</button>
+        </div>
+        <div class="questionCard" data-questNum='five'>
+            <p>Target this paragraph text.</p>
+            <input type="text" />
+            <button class="submitAnswer">Check my answer.</button>
+        </div>
+    </section>
+</body>
+
+</html>

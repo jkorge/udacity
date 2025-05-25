@@ -1,0 +1,11 @@
+@use '../utils/utils' as *;
+
+body {
+    background-color: $color-comp;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}

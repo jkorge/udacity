@@ -1,0 +1,8 @@
+@use '../utils/utils' as *;
+
+.footer {
+    padding: 2rem;
+    width: 100%;
+    text-align: center;
+    color: $color-acct;
+}

@@ -1,0 +1,15 @@
+{
+  "name": "webpack_exersise",
+  "version": "1.0.0",
+  "description": "A short exersise in using the webpack bundler.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "you name here",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1"
+  }
+}

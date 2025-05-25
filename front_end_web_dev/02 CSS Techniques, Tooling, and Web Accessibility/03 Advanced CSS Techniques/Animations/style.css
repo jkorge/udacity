@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  margin: 20%;
+  background-color: aqua;
+  transition-duration: 0.5s;
+  transition-property: all, background-color;
+  transition-duration: 0.5s, 0.5s;
+  transition-timing-function: ease, ease-in-out;
+}
+
+.square:hover {
+  transform: scale(3);
+  background-color: purple;
+}
+
+.circle {
+  width: 150px;
+  height: 150px;
+  margin: 5%;
+  background-color: pink;
+  border-radius: 50%;
+  animation-name: roll;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes roll {
+  0%,
+  100% {
+    transform: translateX(-200px);
+  }
+  50% {
+    transform: translateX(200px);
+  }
+}

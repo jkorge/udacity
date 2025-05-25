@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: Cambria, serif;
+    line-height: 1.6;
+    background-color: #000;
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+/*    flex-wrap: wrap;*/
+    height: 100vh;
+}
+
+.nav-bar {
+    background-color: #234477;
+    position: sticky;
+    top: 0;
+    padding: 1em 1em;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.nav-item {
+    padding: 1em 1em;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    color: #a9a9a9;
+    cursor: pointer;
+}
+
+.banner {
+
+    /* Background image */
+    background-image: url(../images/rainbow-vortex.png);
+    background-size: cover;
+
+    /* Get text & anchor on right-most edge, 
+        vertically centered, with a little padding */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 2rem;
+}
+
+.banner-text {
+    /* Override the padding applied to <h2> */
+    padding: 0;
+    text-shadow: 0 0 2rem #000;
+    color: #fff;
+}
+
+/* Horizontal Lines Underneath Headers */
+hr.h2 {
+    border-top: 1px solid #d3d3d3;
+    margin: 0 0 1rem 0;
+}
+
+hr.h3 {
+    border-top: 2px #d3d3d3;
+    border-style: inset;
+    margin: 0 0 0.5rem 0;
+}
+
+footer {
+    text-align: center;
+    margin: 1vh;
+}
+
+.footer-link {
+    /* Browser's blue for links is illegible on a black background */
+    color: #fff;
+}

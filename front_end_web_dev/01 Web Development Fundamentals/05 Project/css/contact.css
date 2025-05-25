@@ -1,0 +1,114 @@
+.contact-info {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    color: #fff;
+}
+
+.contact-info > a {
+    /* Override the browser's link styling */
+    color: #fff;
+    text-decoration: none;
+}
+
+.form-section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.thankyou-section {
+    text-align: center;
+    flex: 1;
+}
+
+.form-flex {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+form {
+    text-wrap: nowrap;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+form > label {
+    align-self: center;
+    justify-self: right;
+    margin: 0 1em;
+}
+
+form > label[for="messageContent"] {
+    /* Keep the textarea's label at the top */
+    align-self: start;
+    margin: 1em 1em;
+}
+
+.required-label:after {
+    /* Mark required fields' labels with a red asterisk */
+    content: "*";
+    color: red;
+}
+
+input,
+textarea,
+select {
+    align-self: center;
+    margin: 1em 0;
+}
+
+input,
+select {
+    height: 2em;
+    width: 20em;
+}
+
+textarea {
+    height: 40em;
+    width: 50em;
+    max-width: 75%;
+    padding: 0.5em;
+    font-family: Cambira, serif;
+}
+
+textarea::placeholder {
+    font-family: Cambira, serif;
+    font-size: 1.25em;
+    font-style: italic;
+}
+
+@media (max-width: 1000px) {
+    input,
+    select {
+        max-width: 40vw;
+    }
+
+    textarea {
+        max-width: 40vw;
+    }
+}
+
+.form-button {
+
+    /* Center the button in the form grid */
+    grid-column: 1 / 3;
+    justify-self: center;
+
+    /* Button styling */
+    background-color: #f2a227;
+    border: none;
+    min-height: 1rem;
+    min-width: 10rem;
+
+    /* Text styling */
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+}
+
+.form-button:hover {
+    cursor: pointer;
+    color: #a9a9a9;
+}

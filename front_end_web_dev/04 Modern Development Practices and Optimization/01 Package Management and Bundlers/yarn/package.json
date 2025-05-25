@@ -1,0 +1,13 @@
+{
+  "name": "yarn_exercise",
+  "version": "1.0.0",
+  "description": "Introduction to Yarn",
+  "main": "index.js",
+  "author": "James Korge",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^5.2.0",
+    "mocha": "^11.3.0"
+  }
+}

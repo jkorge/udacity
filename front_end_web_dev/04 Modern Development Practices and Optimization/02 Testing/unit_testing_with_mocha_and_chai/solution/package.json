@@ -1,0 +1,16 @@
+{
+  "name": "mocha_exercise",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "Making unit tests with mocha",
+  "devDependencies": {
+    "chai": "^5.1.2",
+    "mocha": "^11.0.1"
+  }
+}

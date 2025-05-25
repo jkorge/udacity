@@ -1,0 +1,39 @@
+@use '../utils/utils' as *;
+
+.bio {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: $color-acct;
+
+    &__headshot-wrapper {
+        height: 100%;
+    }
+
+    &__headshot {
+        object-fit: contain;
+        width: 100%;
+        padding: 2rem;
+    }
+
+    &__intro {
+        padding: 1rem;
+    }
+
+    &__button-box {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        padding: 1rem 0;
+
+        &__button {
+            @include button-style;
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .bio {
+        flex-wrap: wrap;
+    }
+}

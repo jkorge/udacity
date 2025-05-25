@@ -1,0 +1,21 @@
+/* Navigation styling */
+
+body header {
+  width: 200px;
+  width: 100px;
+  cursor: pointer;
+}
+
+header h1,
+nav li {
+  text-transform: uppercase;
+}
+
+nav li {
+  margin: 10% 5%;
+  border-bottom: 2px solid lightgray;
+}
+
+nav li:hover {
+  border-bottom-color: #45e9f5;
+}

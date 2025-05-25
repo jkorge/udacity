@@ -1,0 +1,53 @@
+header {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: lightgray;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+
+li {
+    padding: 5px;
+    border: 1px solid black;
+}
+
+section {
+    padding: 20px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: lightblue;
+    padding: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.title {
+    font-size: 24px;
+    color: navy;
+}
+
+.section-header {
+    font-size: 20px;
+    color: darkred;
+}
+
+.section-content {
+    font-size: 16px;
+    color: darkgreen;
+}
+
+.footer-content {
+    font-size: 14px;
+    color: navy;
+}

@@ -1,0 +1,15 @@
+{
+  "name": "webpack_exersise",
+  "version": "1.0.0",
+  "description": "A short exersise in using the webpack bundler.",
+  "source": "src/index.js",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "parcel build"
+  },
+  "author": "you name here",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.15.1"
+  }
+}

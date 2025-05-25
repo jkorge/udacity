@@ -1,0 +1,121 @@
+h2,
+h3
+{
+    padding: 0 1rem;
+}
+
+p {
+
+    padding: 0 2rem;
+    margin: 0.75rem 0;
+    font-size: 1.1em;
+}
+
+@media (min-width: 1600px) {
+    .banner {
+        /* Dimensions of the provided image */
+        min-height: 800px;
+        min-width: 1600px;
+    }
+}
+
+.banner-button {
+
+    /* Anchor styling */
+    background-color: #f2a227;
+    border: none;
+    min-height: 1rem;
+    min-width: 10rem;
+
+    /* Text styling */
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+
+    /* Prevent browser from underlining the link */
+    text-decoration: none;
+}
+
+.banner-button:hover {
+    color: #a9a9a9;
+}
+
+.highlights {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1em;
+    gap: 2em;
+}
+
+.highlight-card {
+    text-wrap: nowrap;
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    padding: 0.5em;
+
+    /* Round borders with 2 shadows
+        one on the bottom right
+        one inset on top left
+       This creates the illusion of a lightsource 
+       on the top left of the page - goes well 
+       with the banner image */
+    border-radius: 1em;
+    box-shadow: 
+        0.5em 0.5em 0.5em #d3d3d3,
+        0.1em 0.1em 0.2em #d3d3d3 inset;
+}
+
+.highlight-icon-frame {
+    background-color: #f2a227;
+    border-radius: 50%;
+    margin: 0.5em;
+}
+
+.highlight-icon {
+    min-width: 64px;
+    max-width: 5vw;
+    margin: 1rem;
+}
+
+@media (min-aspect-ratio: 2/1) {
+    .highlight-icon {
+        /* Icons get wider than their frame on ultrawide monitors. Need extra margin */
+        margin: 2rem;
+    }
+}
+
+.team-photo {
+    float: right;
+    max-width: 33%;
+    margin: 1em 1em;
+}
+
+@media (max-width: 1000px) {
+    .team-photo {
+        /* Keep the photo from taking up too much space on smaller screens */
+        max-width: 50vw;
+    }
+}
+
+.contact-button {
+
+    /* Anchor styling */
+    background-color: #f2a227;
+    border: none;
+    min-height: 1.5rem;
+    min-width: 10rem;
+
+    /* Text styling */
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+
+    /* Prevent browser from underlining the link */
+    text-decoration: none;
+}
+
+.contact-button:hover {
+    color: #a9a9a9;
+}

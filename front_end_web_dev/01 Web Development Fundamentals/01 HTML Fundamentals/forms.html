@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Form</title>
+</head>
+
+<body>
+    <h1>My First Form</h1>
+
+    <form method="GET">
+
+        <div>
+            <label>Email:
+                <input type="email" name="email" required>
+            </label>
+        </div>
+
+        <div>
+            <label>Password:
+                <input type="password" name="password" required minlength="8" maxlength="20">
+            </label>
+        </div>
+
+        <div>
+            <label>
+                Date of Birth:
+                <input type="date" name="dob" required>
+            </label>
+        </div>
+
+        <div>
+            <fieldset>
+                <legend>Select Your Favorite Color:</legend>
+
+                <label>
+                    <input type="radio" name="Red" value="red">
+                    Red
+                </label>
+
+                <label>
+                    <input type="radio" name="Blue" value="blue">
+                    Blue
+                </label>
+
+                <label>
+                    <input type="radio" name="Green" value="green">
+                    Green
+                </label>
+            </fieldset>
+        </div>
+
+        <div>
+            <label>
+                How did you hear about us?
+
+                <select name="media" id="media-select">
+                    <option value="email">Email</option>
+                    <option value="billboard">Billboard</option>
+                    <option value="other">Other</option>
+                </select>
+            </label>
+        </div>
+
+        <div>
+            <label>
+                Bio
+                <textarea rows="5" cols="20" name="bio"></textarea>
+            </label>
+        </div>
+
+        <div>
+            <input type="submit" name="submit">
+        </div>
+    </form>
+
+</body>
+
+</html>

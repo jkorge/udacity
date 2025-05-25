@@ -1,0 +1,17 @@
+{
+  "name": "mocha_exercise",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Your name here",
+  "license": "MIT",
+  "description": "Making unit tests with mocha",
+  "devDependencies": {
+    "chai": "^5.2.0",
+    "mocha": "^11.4.0",
+    "mochai": "^0.2.5"
+  }
+}

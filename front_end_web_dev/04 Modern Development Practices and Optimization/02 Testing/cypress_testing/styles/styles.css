@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+main {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+
+.child:last-child {
+  margin: 10px;
+  padding: 5px;
+  font-size: 1em;
+  text-align: center;
+}
+
+/* Form */
+form {
+  margin: auto;
+  padding: 10px;
+  border: solid rgb(175, 173, 173);
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+label {
+  text-align: start;
+  margin: 5px 3px 5px 3px;
+}
+
+.formContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.formChild {
+  list-style: none;
+}
+
+.navContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navChild {
+  list-style: none;
+}

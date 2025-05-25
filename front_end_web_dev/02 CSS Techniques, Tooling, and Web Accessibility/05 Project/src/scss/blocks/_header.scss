@@ -1,0 +1,12 @@
+@use '../utils/utils' as *;
+
+.header {
+    position: sticky;
+    height: 10vh;
+    width: 100%;
+    top: -3vh;
+    background-color: $color-main;
+
+    /* Keeps header (and nav bar) above everything else */
+    z-index: 1;
+}

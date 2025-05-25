@@ -1,0 +1,23 @@
+@use 'variables' as *;
+@use 'mixins' as *;
+@use 'sass:color';
+
+.button {
+
+    @include flex-center;
+
+    padding: $spacing-unit $spacing-unit * 2;
+    border: none;
+    border-radius: calc($spacing-unit / 2);
+    font-family: $font-family;
+    font-size: 1rem;
+
+    &--primary {
+        background-color: $primary-color;
+        color: white;
+    }
+
+    &:hover {
+        background-color: color.adjust($primary-color, $lightness: -10%);
+    }
+}

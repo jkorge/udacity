@@ -1,0 +1,17 @@
+{
+  "name": "cypress_exercise",
+  "version": "1.0.0",
+  "description": "A look at end to end testing with cypress",
+  "source": "src/index.js",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "parcel build",
+    "start": "parcel serve index.html"
+  },
+  "author": "your name here",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^13.17.0",
+    "parcel": "^2.13.3"
+  }
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<!-- Nothing was indented -->
+
+<!-- Missing <head> tag -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title was in the wrong place -->
+    <title>A Web Page</title>
+</head>
+
+<body>
+
+    <!-- Mismatched tags 
+    <p>Debugging</h1>
+    -->
+    <h1>Debugging</h1>
+
+    <!-- Duplicated opening bracket
+    <<p class="debug"> Rock out!</p>
+    -->
+
+    <p class="debug">Rock out!</p>
+
+    <!-- Attribute for anchor element should be href not src
+    <a src="#">Click Here</a>
+    -->
+    <a href="#">Click Here</a>
+
+    <form>
+        <label for="textInput">Text with no more than 12 characters</label>
+        <!-- Attribute name is incorrect. Should be maxlen. Needs an id to match the label's for attribute
+        <input name="textInput" type="text" max="12">
+        -->
+        <input id="textInput" type="text" name="textInput" maxlength="12">
+    </form>
+
+    <!-- Using opening tag instead of closing tag
+    <h2>To do list:<h2>
+    -->
+    <h2>To do list:</h2>
+    <ol>
+        <li>Wake Up</li>
+        <li>Brush Teeth</li>
+        <!-- Closing tag in the wrong place
+        <li>Go to Work
+        -->
+        <li>Go to Work</li>
+    <!-- Closing tag doesn't match opening tag
+    </ul>
+    -->
+    </ol>
+    <!-- </li> -->
+
+    <!-- Image path is incorrect and alt is missing quotes
+    <img src="image.png" alt=A sleeping cat>
+    -->
+    <img src="./images/image.jpg" alt="A sleeping cat">
+
+</body>
+
+</html>
